@@ -8,6 +8,9 @@ Most of the library tries to follow a sklearn-like syntax for the Reinforcement 
 
 Here is a quick example of how to train and run A2C on a CartPole environment:
 
+import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
+
 .. code-block:: python
 
   import gym
